@@ -87,7 +87,7 @@ Note how the net cash flow is exactly -$2,000 — the sells don't fully cover th
 
 ## LLM Usage
 
-As requested in the challenge instructions, I used Claude (Anthropic) to help structure and refine this solution. The conversation is available [here](./llm_conversation.md).
+As requested in the challenge instructions, I used Claude (Anthropic) to help structure and refine this solution.
 
 My approach: I described the architecture I wanted and used Claude to help with documentation clarity and test coverage. The core design decisions (Decimal arithmetic, threshold-based rebalancing, trade ordering, cash awareness) are mine — they come from thinking about how a robo-advisor actually operates in production.
 
